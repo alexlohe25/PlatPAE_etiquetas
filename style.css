@@ -1,0 +1,50 @@
+body {
+    font-family: system-ui;
+    background: #F2F1FF;
+    color: white;
+    text-align: center;
+  }
+  #title{
+    color:black;
+    position: relative;
+    padding:30px 0;
+  }
+  #title a{
+    display:inline-block;
+    margin:0;
+    padding:0 auto;
+    width:40%;
+  }
+  #main_area{
+    
+  }
+  #menu{
+    background-image: linear-gradient(to right, #8482FF , #A462FF);
+    list-style-type: none;
+    margin: 0;
+    margin-top:10%;
+    padding: 0;
+    width: 10%;
+    max-width: 150px;
+    border-radius:50px;
+  }
+  #menu li{
+    padding: 10px;
+    display: block;
+    transition: padding 0.2s;
+  }
+  #menu li:hover{
+    background: #F2F1FF;
+    padding: 15px;
+    color: black;
+    display: block;
+  }
+  #menu li:active{
+    background: #F2F1FF;
+    padding: 15px;
+    color: black;
+    display: block;
+  }
+  #page_area{
+    background:#000000;
+  }
